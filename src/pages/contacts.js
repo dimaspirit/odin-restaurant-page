@@ -1,5 +1,5 @@
 const data = {
-  title: 'Location',
+  title: 'Contacts',
   hours: 'Hours: From sunrise to moonrise',
   phone: 'Phone: (888) 88E-ARTH',
   location: 'Location: 24 West Street, Drogheda, Co. Louth, A92 K8P7, Ireland',
