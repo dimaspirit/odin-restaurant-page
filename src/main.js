@@ -27,3 +27,5 @@ const renderPage = (event) => {
 navBtns.forEach(navBtn => {
   navBtn.addEventListener('click', renderPage);
 });
+
+contentNode.appendChild(pages.about());
