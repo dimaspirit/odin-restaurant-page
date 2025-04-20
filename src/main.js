@@ -1,4 +1,5 @@
 import "./styles/base.css";
+import "./styles/header.css";
 
 import { renderPage as renderPageAbout } from "./pages/about";
 import { renderPage as renderPageContacts }from "./pages/contacts";
