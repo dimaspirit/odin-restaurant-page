@@ -4,9 +4,9 @@
   "description": "https://www.theodinproject.com/lessons/node-path-javascript-restaurant-page",
   "main": "index.js",
   "scripts": {
-    "serve": "npx webpack serve",
-    "build": "npx webpack",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack",
+    "serve": "webpack serve",
+    "deploy": "git subtree push --prefix dist origin gh-pages"
   },
   "repository": {
     "type": "git",
